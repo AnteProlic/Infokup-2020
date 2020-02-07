@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Courier+Prime|Harmattan|M+PLUS+1p&display=swap');
+
+#header1 {
+    background-image: url('https://picsum.photos/2000/1000');
+    width: 100%;
+    height: 51vw;
+    margin: 0;
+    z-index: -1;
+}
+#shade {
+    width: 100%;
+    height: 30vw;
+    background: linear-gradient(to bottom, #0000007c 10%, #00000000 90%);
+    z-index: 1;
+}
+
+#button__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    height: 1vw;
+    margin: 1%;
+    font-size: 20px; 
+    font-family: 'Harmattan', sans-serif;
+    cursor: pointer;
+}
+#f5 {
+    float: left;
+}
+

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Courier+Prime|Harmattan|M+PLUS+1p&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Courier+Prime&display=swap');
+
+#logInInput__container {
+    float: left;
+    display: flex;
+    width: 25%;
+    height: 10vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 12% 0 12% 0;
+}
+input {
+    width: 60%;
+    height: 1.2vw;
+    margin: 0 20% 0 20%;
+}
+#container__logInInput {
+    font-family: 'Harmattan', sans-serif;
+    width: 50%;
+    border: 1px solid black;
+    height: 25vw;
+    margin: 12% 25% 0 25%;
+    background-color: white;
+    font-size: 20px;
+}
+#logInInput__image {
+    background-image: linear-gradient(to bottom right, blue, purple);
+    width: 75%;
+    height: 25vw;
+    float: left;
+}
+p {
+    margin: 1%;
+}
+#logInInput__button {
+    width: 50%;
+    height: 1vw;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin: 10% 25% 0 25%;
+    border: 3px black solid;
+}
+#logInInput__title {
+    font-size: 22px;
+    margin-bottom: 10%;
+}

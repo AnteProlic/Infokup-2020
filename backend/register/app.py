@@ -1,8 +1,7 @@
 from flask import Flask, render_template, url_for, request, session, redirect, Blueprint
 from flask_pymongo import PyMongo
 from flask_cors import CORS
-from .config import dev_config
-from flask_hashing import Hashing
+from backend.config import dev_config
 import hashlib
 
 mod = Blueprint('/register', __name__)

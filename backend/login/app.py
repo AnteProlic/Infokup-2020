@@ -1,8 +1,7 @@
 from flask import Flask, render_template, url_for, request, session, redirect, Blueprint
 from flask_pymongo import PyMongo
-from flask_hashing import Hashing
 from flask_cors import CORS
-from .config import dev_config
+from backend.config import dev_config
 import base64
 import hashlib
 
@@ -13,8 +12,6 @@ dev_config(APP)
 
 mongo = PyMongo(APP)
 CORS(APP)
-hashing = Hashing(APP)
-
 
 @mod.route('/login')
 def index():
@@ -30,8 +27,8 @@ def login():
 
     if login_user:
         if hashlib.sha256(bytes(request.form['pass'], 'UTF-8')) == login_user['password']:
-            session['username'] = request.form['username']
-            return redirect(url_for('index'))
+            session['username'] = login_user['id']
+            return redirect(url_for('index.html'))
     else:
         return 'Invalid username/password combination'
     

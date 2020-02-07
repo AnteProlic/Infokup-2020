@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+#footer__container {
+    width: 80%;
+    height: 35vw;
+    background-image: url('https://picsum.photos/2500/1000');
+    padding: 5% 10%;
+}
+#footer__container__text{
+    font-size: 1vw;
+    color: white;
+    height: 30vw;
+    text-align: center;
+    font-family: 'Courier Prime', monospace;
+    background-color: rgb(25, 25, 25);
+    padding: 2%;
+}

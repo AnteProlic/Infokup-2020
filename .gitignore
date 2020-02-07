@@ -1,3 +1,11 @@
 venv/
 .vscode/
 __pycache__/
+backend/fileman/__pycache__
+backend/homepage/__pycache__
+backend/location_form/__pycache__
+backend/login/__pycache__
+backend/register/__pycache__
+frontend/.cache
+frontend/dist
+frontend/node_modules

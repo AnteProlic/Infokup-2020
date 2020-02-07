@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Courier+Prime&display=swap');
+
+#container__title{
+    font-size: 3vw;
+    font-family: 'Bebas Neue', cursive;
+}
+#about__project__container{
+    width: 90%;
+    height: 30vw;
+    background: linear-gradient(90deg, #000000 45%, rgba(25, 25, 25, 0) 45%), url('https://picsum.photos/2500/2000');
+    z-index: 0;
+    color: white;
+    padding: 5%;
+  }
+
+#container__text {
+    text-align: left;
+    width: 40%;
+    font-family: 'Courier Prime', monospace;
+    
+}

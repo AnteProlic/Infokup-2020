@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Courier+Prime|Harmattan|M+PLUS+1p&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam|Bebas+Neue|Courier+Prime|Harmattan|M+PLUS+1p&display=swap');
+
+#card {
+    margin-top: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 15%;
+    max-height: 26vw;
+    text-align: center;
+  }
+img{
+  width: 100%;
+}
+#title {
+    color: grey;
+    font-size: 1vw;
+    font-family: 'Harmattan', sans-serif;
+  }
+p {
+    font-size: 1vw;
+  }
+#contact {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 1%;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 95%;
+  height: 2vw;
+  font-size: 1vw;
+  margin-top: 3.5vw;
+}
+#name {
+  font-size: 1.5vw;
+  font-family: 'Be Vietnam', sans-serif;
+}
